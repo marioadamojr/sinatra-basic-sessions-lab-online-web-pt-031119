@@ -12,6 +12,6 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-
+    @item = Item.new(params)
   end
 end
