@@ -1,5 +1,7 @@
 class Item
-  attr_reader :item
+  attr_reader :name
 
-
+  def initialize(params)
+    @name=params[:name]
+  end
 end
