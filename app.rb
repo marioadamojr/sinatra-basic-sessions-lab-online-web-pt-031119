@@ -13,6 +13,6 @@ class App < Sinatra::Base
 
   post '/checkout' do
     @item = Item.new(params)
-    binding.pry
+    # binding.pry
   end
 end
